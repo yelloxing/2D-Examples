@@ -1,8 +1,10 @@
-ctrlapp.register.controller('chinaMapController', ['$remote', '$scope', '$map', function ($remote, $scope, $map) {
+ctrlapp.register.controller('chinaMapController', ['$remote', '$scope', function ($remote, $scope) {
 
   $scope.initMethod = function () {
 
-    var map = $map().scale(7);
+    var map = $$.map({
+      scale: 7,
+    });
     var width = 800,
       height = 500;
 

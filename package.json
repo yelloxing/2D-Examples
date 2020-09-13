@@ -25,6 +25,6 @@
     "cuf": "^1.2.0"
   },
   "dependencies": {
-    "image2d": "^1.8.7"
+    "image2d": "^1.9.0"
   }
 }

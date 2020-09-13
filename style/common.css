@@ -38,18 +38,31 @@ body {
 .github {
   position: fixed;
   transform: rotate(45deg);
-  top: 0.6rem;
   line-height: 1.6em;
-  right: -0.6rem;
-  background-color: #ac2c23;
-  outline: 0.04rem solid #ac2c23;
   transform-origin: 1.5rem 0.23rem;
-  border: 0.02rem dashed #d14742;
-  width: 3rem;
   text-align: center;
-  color: #ebdbd9;
   font-family: sans-serif;
   display: inline-block;
+}
+
+.github.lib{
+  top: 0.6rem;
+  right: -0.6rem;
+  width: 3rem;
+  background-color: #ac2c23;
+  outline: 0.04rem solid #ac2c23;
+  border: 0.02rem dashed #d14742;
+  color: #ebdbd9;
+}
+
+.github.me{
+  top: 0.8rem;
+  right: -1rem;
+  width: 4rem;
+  background-color: #03a9f4;
+  outline: 0.04rem solid #03a9f4;
+  border: 0.02rem dashed #065b9f;
+  color: #fafafa;
 }
 
 footer.item {
